@@ -1,7 +1,29 @@
 <html>
+  <head>
+    <style>
+      main {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      main > div {
+        animation: rotation 30s linear infinite;
+      }
+      
+      @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+    </style>
+  </head>
 <body>
-<main style="height: 100vh">
-<div style="margin: auto auto; font-size: 96px">𐄫</div>
+<main>
+<div>𐄫</div>
 </main>
 </body>
 </html>
